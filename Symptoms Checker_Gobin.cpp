@@ -24,9 +24,9 @@ class symptomsChecker
 class checker2: public symptomsChecker
 {
 public:
-		checker2()
-		 {	// random 
-		 	fever=rand()%2;
+checker2()
+	 {	// random 
+        	fever=rand()%2;
             cough=rand()%2;
             shortnessB=rand()%2;
             runnyNose=rand()%2;
@@ -34,7 +34,7 @@ public:
             sneezing=rand()%2;
             fatigue=rand()%2;
     
-		}
+	}
 };		
 // assigning all variables 
 int main() {
